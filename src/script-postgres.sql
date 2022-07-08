@@ -5,7 +5,7 @@ CREATE TABLE producto (
      fecha_creacion DATE NOT NULL,
      imagen VARCHAR(100) NULL DEFAULT NULL,
      codigo VARCHAR(7) NOT NULL,
-     PRIMARY_KEY (id)
+     PRIMARY KEY (id)
      
 );
 
