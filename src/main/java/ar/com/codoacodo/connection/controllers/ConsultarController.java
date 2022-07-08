@@ -11,7 +11,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import ar.com.codoacodo.connection.dto.Producto;
-import ar.com.codoacodo.connection.AdministradorDeConexiones;let.http.HttpServletResponse;
+import ar.com.codoacodo.connection.AdministradorDeConexiones;
+
+
 @WebServlet("/ConsultarController")
 public class ConsultarController extends HttpServlet{
 	
