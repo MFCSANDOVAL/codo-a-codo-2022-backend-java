@@ -10,8 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import ar.com.codoacodo.connection.dto.Producto;
+
 import ar.com.codoacodo.connection.AdministradorDeConexiones;
+import ar.com.codoacodo.connection.dto.Producto;
 
 
 @WebServlet("/ConsultarController")
