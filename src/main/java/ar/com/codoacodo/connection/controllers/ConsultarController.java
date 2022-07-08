@@ -1,5 +1,6 @@
 package ar.com.codoacodo.connection.controllers;
 import java.io.IOException;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 
@@ -10,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import ar.com.codoacodo.connection.dto.Producto;
-
+import ar.com.codoacodo.connection.AdministradorDeConexiones;let.http.HttpServletResponse;
 @WebServlet("/ConsultarController")
 public class ConsultarController extends HttpServlet{
 	
@@ -29,7 +30,7 @@ public class ConsultarController extends HttpServlet{
 	   ResultSet rs = st.executeQuery(sql);
 	   //rs sacando los datos
 	   
-	   Long id = rs.getLong(1);//tomar la primer columna
+	   Long idProducto = rs.getLong(1);//tomar la primer columna
 	   String nombre = rs.getString(2);
 	   Float precio = rs.getFloat(3);
 	   Date fecha = rs.getDate(4);
