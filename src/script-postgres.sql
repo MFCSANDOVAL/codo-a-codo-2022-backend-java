@@ -9,4 +9,4 @@ CREATE TABLE producto (
      
 );
 
-ALTER TABLE producto ADD COSTRAINT UN_producto_codigo unique (codigo);
+ALTER TABLE producto ADD CONSTRAINT UN_producto_codigo unique (codigo);
