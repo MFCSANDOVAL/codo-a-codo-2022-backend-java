@@ -1,8 +1,10 @@
-package ar.com.codoacodo.connection.controllers;
+package ar.com.codoacodo.controllers;
+
 import java.io.IOException;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
+import java.sql.Statement;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,7 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 
 
 import ar.com.codoacodo.connection.AdministradorDeConexiones;
-import ar.com.codoacodo.connection.dto.Producto;
+import ar.com.codoacodo.dto.Producto;
+
 
 
 @WebServlet("/ConsultarController")

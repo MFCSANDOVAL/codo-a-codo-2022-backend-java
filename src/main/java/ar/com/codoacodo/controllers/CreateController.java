@@ -1,4 +1,4 @@
-package ar.com.codoacodo.connection.controllers;
+package ar.com.codoacodo.controllers;
 import java.io.IOException;
 import java.sql.Connection;
 
