@@ -7,6 +7,8 @@
    </head>
    
    <body>
+   <!-- navbar -->
+   <%@include file="navbar.jsp" %>	
       <main>
       <div class="container">
       <section>

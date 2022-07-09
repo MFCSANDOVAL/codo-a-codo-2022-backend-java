@@ -3,10 +3,10 @@ package ar.com.codoacodo.dto;
 import java.util.Date;
 
 public class Producto {
-	private Long idProducto;
+	private Long idProducto; 
 	private String nombre;
 	private Float precio;
-	private Date fecha;
+	private Date fecha; 
 	private String imagen; 
 	private String codigo;
 	
@@ -68,5 +68,4 @@ public class Producto {
 		this.codigo = codigo;
 	}
 	
-	  
 }
